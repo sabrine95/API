@@ -1,0 +1,50 @@
+body{
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(2,8,14,1) 100%);
+}
+h1{
+    font-size: 50px;
+    font-family:Times New Roman ;
+    margin-left: 400px;
+    text-decoration: underline;
+}
+.card {
+    margin: 2rem 2rem 2rem 0;
+    padding: 1.5rem;
+    width: 310px;
+    box-shadow: 0 0 28px 4px rgba(0,0,0,0.1);
+    transition: transform .3s ease;
+    cursor: pointer;
+    background-color: rgb(160, 224, 224);
+}
+p,h3,h4,h5{
+    font-family:Times New Roman ;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card__title {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.card__image {
+    display: flex;
+    justify-content: flex-end;
+}
+.card__image img {
+    border-radius: 50%;
+}
+.phoneNumber p {
+    font-style: italic;
+    font-size: .8rem;
+    margin: 0;
+}
+.location {
+    margin: 1rem 0;
+}
+.location p {
+    margin: 0;
+}
